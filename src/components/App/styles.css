@@ -1,0 +1,34 @@
+body {
+	background: linear-gradient(90deg, rgb(119, 166, 219),rgb(204, 144, 231));
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	text-align: center;
+	color: #fff;
+	font-family: Raleway;
+}
+
+.container {
+	width: 40%;
+}
+
+.btn-outline-success {
+	background-color: #6fda88;
+	color: #fff;
+}
